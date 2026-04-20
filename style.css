@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  height:100%;
+  width:100%;
+}
+
+
+.main {
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: black;
+}
+
+.main p {
+  color: #00ff00;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.main h2 {
+  color: #00ff00;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  display:none;
+}
