@@ -6,7 +6,7 @@ surprise.style.display = "none";
 const charac = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 let interation = 0;
 
-para.addEventListener('mouseenter',()=>{
+para.addEventListener('click',()=>{
 function randomText(){
     str = surp.split("").map((char, index)=>{
         if(index < interation){
